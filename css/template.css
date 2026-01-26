@@ -258,7 +258,6 @@ td {
 
 .inside-content {
   position: relative;
-  padding: 20px;
   color: #333;
   min-height: 100vh;
   background-color: #f0f4f8;
@@ -309,23 +308,6 @@ td {
   align-items: center;
   flex-wrap: wrap;
   display: flex;
-}
-
-.alertMsg,
-.successMsg {
-  border-radius: 4px;
-  top: 20px;
-  display: flex;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  font-size: 14px;
-  z-index: 10000;
-  color: #fff;
-  position: fixed;
-  align-items: center;
-  right: 20px;
-  padding: 10px 15px;
-  gap: 10px;
-  animation: slideIn 0.3s ease;
 }
 
 tbody tr:hover {
@@ -421,10 +403,6 @@ input[type='date']:focus {
   top: 0;
   max-height: 100%;
   left: 0;
-}
-
-.alertMsg {
-  background-color: #e74c3c;
 }
 
 td a {
@@ -540,10 +518,6 @@ thead {
 .actions i:hover {
   transform: scale(1.1);
   color: #e74c3c;
-}
-
-.successMsg {
-  background-color: #00d68f;
 }
 
 .empty {
@@ -773,7 +747,7 @@ tbody tr:nth-child(odd) {
   font-weight: 700;
   color: #fff;
   text-transform: uppercase;
-  background-color: #7a7979;
+  background-color: #c9c2c2;
   border-radius: 50%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   cursor: pointer;
