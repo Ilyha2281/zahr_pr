@@ -697,8 +697,8 @@ export const user = {
                             <input type="text" v-model="parent.formData.password">
                         </div>
                         <div class="row">
-                            <button class="btn" v-if="parent.formData && parent.formData.id">Edit</button>
-                            <button class="btn" v-if="parent.formData && !parent.formData.id">Add</button>
+                            <button class="btnS" v-if="parent.formData && parent.formData.id">Edit</button>
+                            <button class="btnS" v-if="parent.formData && !parent.formData.id">Add</button>
                         </div>
                     </form>
                 </div>
@@ -832,8 +832,8 @@ export const user = {
                                 <input type="text" v-model="parent.formData.description">
                             </div>
                             <div class="row">
-                                <button class="btn" v-if="parent.formData && parent.formData.id">Edit</button>
-                                <button class="btn" v-if="parent.formData && !parent.formData.id">Add</button>
+                                <button class="btnS" v-if="parent.formData && parent.formData.id">Edit</button>
+                                <button class="btnS" v-if="parent.formData && !parent.formData.id">Add</button>
                             </div>
                         </form>
                     </div>
